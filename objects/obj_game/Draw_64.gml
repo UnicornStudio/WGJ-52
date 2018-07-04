@@ -1,0 +1,12 @@
+/// @desc Draw
+draw_sprite(spr_passport,0,0,0)
+draw_set_font(fnt_barcode)
+draw_set_halign(fa_right)
+draw_set_valign(fa_bottom)
+draw_set_color(c_black)
+draw_text(sprite_get_width(spr_passport)-7,sprite_get_height(spr_passport)-8,"WGJ#52")
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
+draw_set_font(fnt_text)
+draw_text(7,11,"NAME YES")
+draw_set_color(c_white)
